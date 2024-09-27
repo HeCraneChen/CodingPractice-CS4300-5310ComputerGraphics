@@ -41,5 +41,5 @@ halftone_image = generate_halftone(image_path, dot_radius=15, spacing=30)
 halftone_image.show()
 
 # Save the result
-halftone_image.save("./results/result.jpg" )
+halftone_image.save("./result.jpg" )
 
