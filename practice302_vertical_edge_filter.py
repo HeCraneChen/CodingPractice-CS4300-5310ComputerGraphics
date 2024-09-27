@@ -28,8 +28,8 @@ def apply_vertical_edge_filter(image_path, amplification_factor=10):
     filtered_image = Image.fromarray(filtered_array.astype(np.uint8))
     
     # Save the filtered image
-    filtered_image.save("./data/edges_ginevra_de'_benci__obverse__1967.6.1.a.jpg")
+    filtered_image.save("./result.jpg")
 
 # Example usage
-image_path = "./results/ginevra_de'_benci__obverse__1967.6.1.a.jpg"
+image_path = "./data/ginevra_de'_benci__obverse__1967.6.1.a.jpg"
 apply_vertical_edge_filter(image_path, amplification_factor=20)
